@@ -13,6 +13,8 @@
  *     Right *TreeNode
  * }
  */
+
+ //9.19
 func averageOfLevels(root *TreeNode) []float64 {
 	if root == nil {
 		return []float64{0}

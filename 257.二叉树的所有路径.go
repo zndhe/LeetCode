@@ -13,6 +13,7 @@
  *     Right *TreeNode
  * }
  */
+ //9.19
 func binaryTreePaths(root *TreeNode) []string {
 	ans := []string{}
 	dfs(root, "", &ans)

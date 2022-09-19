@@ -3,7 +3,7 @@
  *
  * [310] 最小高度树
  */
-
+//9.19
 // @lc code=start
 func findMinHeightTrees(n int, edges [][]int) []int {
 	if n == 1 {

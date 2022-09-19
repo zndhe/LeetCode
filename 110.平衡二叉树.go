@@ -13,6 +13,7 @@
  *     Right *TreeNode
  * }
  */
+ //9.19
 func isBalanced(root *TreeNode) bool {
 	if root == nil {
 		return true

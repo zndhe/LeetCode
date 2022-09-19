@@ -13,6 +13,7 @@
  *     Right *TreeNode
  * }
  */
+ 9.19
 func isSymmetric(root *TreeNode) bool {
 	if root == nil {
 		return true

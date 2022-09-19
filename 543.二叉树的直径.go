@@ -13,6 +13,7 @@
  *     Right *TreeNode
  * }
  */
+ //9.19
 func diameterOfBinaryTree(root *TreeNode) int {
 	res := 0
 	helper(root, &res)

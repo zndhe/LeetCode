@@ -13,6 +13,7 @@
  *     Right *TreeNode
  * }
  */
+ //9.19
 func maxDepth(root *TreeNode) int {
 	if root == nil {
 		return 0
