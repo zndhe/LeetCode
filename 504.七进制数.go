@@ -15,17 +15,12 @@ func convertToBase7(num int) string {
 		num = -num
 	}
 	res := ""
-	nums := []int{}
 	for num != 0 {
-		rem := num % 7
-		nums = append(nums, rem)
+		res = strconv.Itoa(num%7) + res
 		num /= 7
 	}
 	if neg {
-		res += "-"
-	}
-	for i := len(nums) - 1; i >= 0; i-- {
-		res += strconv.Itoa(nums[i])
+		res = "-" + res
 	}
 
 	return res

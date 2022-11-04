@@ -27,7 +27,7 @@ func Constructor(head *ListNode) Solution {
 func (this *Solution) GetRandom() int {
 	res := 0
 	for node, i := this.head, 1; node != nil; node = node.Next {
-		if rand.Intn(i) == 0 {
+		if rand.Intn(i) == 0 { //被选中后可以被后面的覆盖，故概率一样
 			res = node.Val
 		}
 		i++
